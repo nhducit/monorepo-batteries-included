@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   "@hookform/devtools": 4.2.2
+  "@hookform/resolvers": 2.9.7
   "@tanstack/react-query": 4.0.10
   "@tanstack/react-query-devtools": 4.0.10
   "@types/react": 18.0.17
@@ -20,13 +21,16 @@ specifiers:
   typescript: 4.7.4
   vite: 3.0.4
   vitest: 0.21.1
+  zod: 3.17.10
 
 dependencies:
+  "@hookform/resolvers": 2.9.7_react-hook-form@7.34.0
   "@tanstack/react-query": 4.0.10_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.34.0_react@18.2.0
   react-icons: 4.4.0_react@18.2.0
+  zod: 3.17.10
 
 devDependencies:
   "@hookform/devtools": 4.2.2_dvp6wxm7rs4sirs67lhxth6k7q
@@ -598,6 +602,17 @@ packages:
       - "@babel/core"
       - "@types/react"
     dev: true
+
+  /@hookform/resolvers/2.9.7_react-hook-form@7.34.0:
+    resolution:
+      {
+        integrity: sha512-BloehX3MOLwuFEwT4yZnmolPjVmqyn8VsSuodLfazbCIqxBHsQ4qUZsi+bvNNCduRli1AGWFrkDLGD5QoNzsoA==,
+      }
+    peerDependencies:
+      react-hook-form: ^7.0.0
+    dependencies:
+      react-hook-form: 7.34.0_react@18.2.0
+    dev: false
 
   /@jridgewell/gen-mapping/0.1.1:
     resolution:
@@ -3101,3 +3116,10 @@ packages:
       }
     engines: { node: ">= 14" }
     dev: true
+
+  /zod/3.17.10:
+    resolution:
+      {
+        integrity: sha512-IHXnQYQuOOOL/XgHhgl8YjNxBHi3xX0mVcHmqsvJgcxKkEczPshoWdxqyFwsARpf41E0v9U95WUROqsHHxt0UQ==,
+      }
+    dev: false
