@@ -15,9 +15,11 @@
     "@tanstack/react-query": "4.0.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "7.34.0",
     "react-icons": "4.4.0"
   },
   "devDependencies": {
+    "@hookform/devtools": "4.2.2",
     "@tanstack/react-query-devtools": "4.0.10",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
