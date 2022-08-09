@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  "@tanstack/react-query": 4.0.10
+  "@tanstack/react-query-devtools": 4.0.10
   "@types/react": 18.0.17
   "@types/react-dom": 18.0.6
   "@vitejs/plugin-react": 2.0.0
@@ -16,10 +18,12 @@ specifiers:
   vite: 3.0.4
 
 dependencies:
+  "@tanstack/react-query": 4.0.10_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  "@tanstack/react-query-devtools": 4.0.10_react@18.2.0
   "@types/react": 18.0.17
   "@types/react-dom": 18.0.6
   "@vitejs/plugin-react": 2.0.0_vite@3.0.4
@@ -485,6 +489,58 @@ packages:
       fastq: 1.13.0
     dev: true
 
+  /@tanstack/match-sorter-utils/8.1.1:
+    resolution:
+      {
+        integrity: sha512-IdmEekEYxQsoLOR0XQyw3jD1GujBpRRYaGJYQUw1eOT1eUugWxdc7jomh1VQ1EKHcdwDLpLaCz/8y4KraU4T9A==,
+      }
+    engines: { node: ">=12" }
+    dependencies:
+      remove-accents: 0.4.2
+    dev: true
+
+  /@tanstack/query-core/4.0.10:
+    resolution:
+      {
+        integrity: sha512-9LsABpZXkWZHi4P1ozRETEDXQocLAxVzQaIhganxbNuz/uA3PsCAJxJTiQrknG5htLMzOF5MqM9G10e6DCxV1A==,
+      }
+    dev: false
+
+  /@tanstack/react-query-devtools/4.0.10_react@18.2.0:
+    resolution:
+      {
+        integrity: sha512-3J7LLYQjfjTI0DbPo0bA+M3l4kdvYSWAqihpeG1u93WVyZj0OEFviUv+4cK7+k2AVgQJAPMZ5xvtewKxOOFVrw==,
+      }
+    dependencies:
+      "@tanstack/match-sorter-utils": 8.1.1
+      "@types/use-sync-external-store": 0.0.3
+      use-sync-external-store: 1.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - react
+    dev: true
+
+  /@tanstack/react-query/4.0.10_biqbaboplfbrettd7655fr4n2y:
+    resolution:
+      {
+        integrity: sha512-Wn5QhZUE5wvr6rGClV7KeQIUsdTmYR9mgmMZen7DSRWauHW2UTynFg3Kkf6pw+XlxxOLsyLWwz/Q6q1lSpM3TQ==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-native: "*"
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      "@tanstack/query-core": 4.0.10
+      "@types/use-sync-external-store": 0.0.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
   /@types/prop-types/15.7.5:
     resolution:
       {
@@ -518,6 +574,12 @@ packages:
         integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==,
       }
     dev: true
+
+  /@types/use-sync-external-store/0.0.3:
+    resolution:
+      {
+        integrity: sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==,
+      }
 
   /@vitejs/plugin-react/2.0.0_vite@3.0.4:
     resolution:
@@ -1593,7 +1655,6 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
-    dev: false
 
   /magic-string/0.26.2:
     resolution:
@@ -1947,7 +2008,6 @@ packages:
     engines: { node: ">=0.10.0" }
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /read-cache/1.0.0:
     resolution:
@@ -1966,6 +2026,13 @@ packages:
     engines: { node: ">=8.10.0" }
     dependencies:
       picomatch: 2.3.1
+    dev: true
+
+  /remove-accents/0.4.2:
+    resolution:
+      {
+        integrity: sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==,
+      }
     dev: true
 
   /resolve/1.22.1:
@@ -2308,6 +2375,16 @@ packages:
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution:
+      {
+        integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
 
   /util-deprecate/1.0.2:
     resolution:

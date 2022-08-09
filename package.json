@@ -10,10 +10,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@tanstack/react-query": "4.0.10",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@tanstack/react-query-devtools": "4.0.10",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "2.0.0",
