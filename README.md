@@ -6,6 +6,8 @@ A template repo which set up many useful thing and ready to use
 - Prettier
 - Husky & lint-staged
 - Tailwind CSS
+- React hook form + devtool
+- React query
 
 ## Clone this template
 [Clone](https://github.com/nhducit/vite-react-batteries-included/generate)
