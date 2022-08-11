@@ -1,56 +1,52 @@
 lockfileVersion: 5.4
 
-importers:
-  .:
-    specifiers:
-      husky: 8.0.1
-      lint-staged: 13.0.3
-      prettier: 2.7.1
-    devDependencies:
-      husky: 8.0.1
-      lint-staged: 13.0.3
-      prettier: 2.7.1
+specifiers:
+  "@hookform/devtools": 4.2.2
+  "@hookform/resolvers": 2.9.7
+  "@tanstack/react-query": 4.0.10
+  "@tanstack/react-query-devtools": 4.0.10
+  "@types/react": 18.0.17
+  "@types/react-dom": 18.0.6
+  "@vitejs/plugin-react": 2.0.0
+  autoprefixer: 10.4.8
+  husky: 8.0.1
+  lint-staged: 13.0.3
+  postcss: 8.4.16
+  prettier: 2.7.1
+  react: 18.2.0
+  react-dom: 18.2.0
+  react-hook-form: 7.34.0
+  react-icons: 4.4.0
+  tailwindcss: 3.1.8
+  typescript: 4.7.4
+  vite: 3.0.4
+  vitest: 0.21.1
+  zod: 3.17.10
 
-  apps/vite-app:
-    specifiers:
-      "@hookform/devtools": 4.2.2
-      "@hookform/resolvers": 2.9.7
-      "@tanstack/react-query": 4.0.10
-      "@tanstack/react-query-devtools": 4.0.10
-      "@types/react": 18.0.17
-      "@types/react-dom": 18.0.6
-      "@vitejs/plugin-react": 2.0.0
-      autoprefixer: 10.4.8
-      postcss: 8.4.16
-      react: 18.2.0
-      react-dom: 18.2.0
-      react-hook-form: 7.34.0
-      react-icons: 4.4.0
-      tailwindcss: 3.1.8
-      typescript: 4.7.4
-      vite: 3.0.4
-      vitest: 0.21.1
-      zod: 3.17.10
-    dependencies:
-      "@hookform/resolvers": 2.9.7_react-hook-form@7.34.0
-      "@tanstack/react-query": 4.0.10_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      react-hook-form: 7.34.0_react@18.2.0
-      react-icons: 4.4.0_react@18.2.0
-      zod: 3.17.10
-    devDependencies:
-      "@hookform/devtools": 4.2.2_dvp6wxm7rs4sirs67lhxth6k7q
-      "@tanstack/react-query-devtools": 4.0.10_react@18.2.0
-      "@types/react": 18.0.17
-      "@types/react-dom": 18.0.6
-      "@vitejs/plugin-react": 2.0.0_vite@3.0.4
-      autoprefixer: 10.4.8_postcss@8.4.16
-      postcss: 8.4.16
-      tailwindcss: 3.1.8
-      typescript: 4.7.4
-      vite: 3.0.4
-      vitest: 0.21.1
+dependencies:
+  "@hookform/resolvers": 2.9.7_react-hook-form@7.34.0
+  "@tanstack/react-query": 4.0.10_biqbaboplfbrettd7655fr4n2y
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  react-hook-form: 7.34.0_react@18.2.0
+  react-icons: 4.4.0_react@18.2.0
+  zod: 3.17.10
+
+devDependencies:
+  "@hookform/devtools": 4.2.2_dvp6wxm7rs4sirs67lhxth6k7q
+  "@tanstack/react-query-devtools": 4.0.10_react@18.2.0
+  "@types/react": 18.0.17
+  "@types/react-dom": 18.0.6
+  "@vitejs/plugin-react": 2.0.0_vite@3.0.4
+  autoprefixer: 10.4.8_postcss@8.4.16
+  husky: 8.0.1
+  lint-staged: 13.0.3
+  postcss: 8.4.16
+  prettier: 2.7.1
+  tailwindcss: 3.1.8
+  typescript: 4.7.4
+  vite: 3.0.4
+  vitest: 0.21.1
 
 packages:
   /@ampproject/remapping/2.2.0:
