@@ -1,15 +1,21 @@
 # Vite React batteries included
 
-A template repo which set up many useful thing and ready to use
+A template mono repo that set up many useful libraries and is ready to use
+
+## Root app
+
+- pnpm
+- prettier
+- husky + lint-stage
+
+## Vite-app
 
 - Vite
 - React
 - Typescript
-- Prettier
-- Husky & lint-staged
 - Tailwind CSS
-- React hook form + devtool
-- React query
+- React hook form + dev tool
+- React-query
 
 ## Clone this template
 
@@ -17,6 +23,6 @@ A template repo which set up many useful thing and ready to use
 
 ## Deploy to Vercel and Clone Project
 
-Click on this button to deploy the template project to Vercel and clone your this repo to your GitHub account
+Click on this button to deploy the template project to Vercel and clone this repo to your GitHub account
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnhducit%2Fvite-react-batteries-included)
